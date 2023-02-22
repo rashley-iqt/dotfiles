@@ -21,7 +21,7 @@ colors:
     white: '#efefef'
     yellow: '#fdb40c'
   primary:
-    background: '#181818'
+    background: '#2f2f2f'
     foreground: '#efefef'
   selection:
     background: '#b5d5ff'
