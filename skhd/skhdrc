@@ -21,7 +21,7 @@ ctrl + shift - up : yabai -m window --swap north || $(yabai -m window --display 
 ctrl + shift - right : yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
 
 # go back to previous workspace (kind of like back_and_forth in i3)
-ctrl - b : yabai -m space --focus recent
+# ctrl - b : yabai -m space --focus recent
 
 # move focused window to previous workspace
 ctrl + shift - b : yabai -m window --space recent; \
@@ -96,4 +96,6 @@ ctrl - f : yabai -m window --toggle zoom-fullscreen
 # toggle window native fullscreen
 ctrl + shift - f : yabai -m window --toggle native-fullscreen
 
-ctrl - return : open -n /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d
+ctrl - backspace: yabai -m window --toggle split
+
+ctrl - return : open -na /Applications/kitty.app/Contents/MacOS/kitty --args --single-instance -d ~
