@@ -1,6 +1,6 @@
 [user]
-	name = Ryan
-	email = rashley@iqt.org
+    name = Ryan
+    email = rashley@iqt.org
 [pull]
   rebase = false
 [core]
@@ -19,4 +19,4 @@
 [diff]
     colorMoved = default
 [init]
-	defaultBranch = main
+    defaultBranch = main

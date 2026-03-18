@@ -1,6 +1,8 @@
+command_timeout = 1000
+
 [character]
-success_symbol = "[➜](bold green) "
-error_symbol = "[➜](bold red) "
+success_symbol = "[➡](bold green) "
+error_symbol = "[➡](bold red) "
 
 [aws]
 symbol = "  "
@@ -18,7 +20,7 @@ symbol = " "
 symbol = " "
 
 [directory]
-read_only = " "
+read_only = " 󰌾"
 
 [docker_context]
 symbol = " "
@@ -51,13 +53,13 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
-symbol = " "
+symbol = " "
 
 [meson]
 symbol = "喝 "
 
 [nim]
-symbol = " "
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
@@ -66,13 +68,13 @@ symbol = " "
 symbol = " "
 
 [package]
-symbol = " "
+symbol = "󰏗 "
 
 [python]
 symbol = " "
 
 [rlang]
-symbol = "ﳒ "
+symbol = " "
 
 [ruby]
 symbol = " "
