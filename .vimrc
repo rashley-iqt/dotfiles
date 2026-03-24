@@ -1,0 +1,1 @@
+/home/birdwainer/repos/dotfiles/vim/.vimrc
